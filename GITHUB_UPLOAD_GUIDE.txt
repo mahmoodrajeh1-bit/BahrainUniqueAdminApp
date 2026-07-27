@@ -1,0 +1,23 @@
+GITHUB UPLOAD GUIDE
+===================
+
+1. Extract this ZIP on your computer.
+2. Open your GitHub repository and choose Add file > Upload files.
+3. Upload the CONTENTS of the extracted folder:
+   .github
+   Android_App
+   Windows_Agent
+   .gitignore
+   README.md
+   GITHUB_UPLOAD_GUIDE.txt
+4. Commit the files to the main branch.
+5. Open Actions > Build Android APK > Run workflow.
+6. When the run is green, open it and download PriceMatcher-Remote-APK.
+7. Extract the artifact and install PriceMatcher-Remote-v2.2-debug.apk.
+
+IMPORTANT
+---------
+The .github folder can appear hidden in Windows because its name starts with a dot.
+Make sure it is uploaded. The APK workflow will not appear without it.
+
+This build uses Gradle installed by GitHub Actions, so gradlew and the Gradle Wrapper are not required.
