@@ -1,5 +1,0 @@
-# Put one special SKU per line.
-# First encounter: undercut the displayed lowest price by AED 0.001.
-# Later cycles: prevent repeated self-undercutting and recover profit when the competitor price rises.
-# Example:
-# S200791364
