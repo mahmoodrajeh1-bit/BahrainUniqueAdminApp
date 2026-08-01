@@ -1,0 +1,79 @@
+name: bahrain_admin
+description: Bahrain Unique private Flutter admin application.
+publish_to: "none"
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  redux:
+  redux_thunk:
+  flutter_redux:
+  image_picker:
+  image_cropper:
+  intl:
+  shared_preferences:
+  carousel_slider:
+  video_player:
+  chewie:
+  dio: ^5.0.0
+  http:
+  http_parser:
+  path:
+  convert:
+  firebase_messaging:
+  toast:
+  flutter_slidable:
+  url_launcher:
+  youtube_player_flutter:
+  youtube_parser:
+  path_provider:
+  printing:
+  pdf:
+  date_format:
+  json_annotation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  json_serializable:
+  build_runner:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ecom.jpg
+    - assets/images/products.jpg
+    - assets/images/blue-line-curve.png
+    - assets/images/graph.png
+    - assets/images/order.png
+    - assets/images/products.png
+    - assets/images/no_product.jpg
+    - assets/images/empty_box.png
+    - assets/images/camera.jpg
+    - assets/images/placeholder-image.png
+    - assets/videos/butterfly.mp4
+    - assets/images/coupon.png
+    - assets/images/camera.png
+    - assets/images/whatsapp.png
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto/Roboto-Regular.ttf
+          weight: 500
+    - family: Open Sans Condensed
+      fonts:
+        - asset: assets/font/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf
+          weight: 700
+    - family: Roboto_Condensed
+      fonts:
+        - asset: assets/font/Roboto_Condensed/RobotoCondensed-Regular.ttf
+          weight: 700

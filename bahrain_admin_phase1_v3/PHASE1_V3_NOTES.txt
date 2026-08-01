@@ -1,0 +1,13 @@
+Bahrain Unique Admin - Phase 1 V3
+
+Changes in this package:
+- Removed discontinued multi_media_picker dependency.
+- Replaced multiple image selection with image_picker pickMultiImage().
+- Updated old static video picker calls to the modern ImagePicker instance API.
+- Removed unused legacy photo, photo_manager, and mime_type dependencies.
+
+Run:
+  flutter clean
+  flutter pub get
+
+Send the full output if dependency resolution stops on another legacy package.
